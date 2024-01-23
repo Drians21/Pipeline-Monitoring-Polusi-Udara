@@ -1,0 +1,28 @@
+[2023-12-05T14:33:32.016+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_local_to_gcs_to_bigquery.load_transform_data_to_bigquery manual__2023-12-05T11:50:51.890883+00:00 [queued]>
+[2023-12-05T14:33:32.044+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_local_to_gcs_to_bigquery.load_transform_data_to_bigquery manual__2023-12-05T11:50:51.890883+00:00 [queued]>
+[2023-12-05T14:33:32.045+0000] {taskinstance.py:1361} INFO - Starting attempt 5 of 5
+[2023-12-05T14:33:32.084+0000] {taskinstance.py:1382} INFO - Executing <Task(GCSToBigQueryOperator): load_transform_data_to_bigquery> on 2023-12-05 11:50:51.890883+00:00
+[2023-12-05T14:33:32.100+0000] {standard_task_runner.py:57} INFO - Started process 150 to run task
+[2023-12-05T14:33:32.113+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'etl_local_to_gcs_to_bigquery', 'load_transform_data_to_bigquery', 'manual__2023-12-05T11:50:51.890883+00:00', '--job-id', '111', '--raw', '--subdir', 'DAGS_FOLDER/etl_gcs_to_bq.py', '--cfg-path', '/tmp/tmpaenj9g4_']
+[2023-12-05T14:33:32.125+0000] {standard_task_runner.py:85} INFO - Job 111: Subtask load_transform_data_to_bigquery
+[2023-12-05T14:33:32.255+0000] {task_command.py:416} INFO - Running <TaskInstance: etl_local_to_gcs_to_bigquery.load_transform_data_to_bigquery manual__2023-12-05T11:50:51.890883+00:00 [running]> on host f19d185ad9e6
+[2023-12-05T14:33:32.438+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_local_to_gcs_to_bigquery' AIRFLOW_CTX_TASK_ID='load_transform_data_to_bigquery' AIRFLOW_CTX_EXECUTION_DATE='2023-12-05T11:50:51.890883+00:00' AIRFLOW_CTX_TRY_NUMBER='5' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-05T11:50:51.890883+00:00'
+[2023-12-05T14:33:32.444+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2023-12-05T14:33:32.447+0000] {connection.py:232} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2023-12-05T14:33:32.457+0000] {base.py:73} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-12-05T14:33:32.464+0000] {gcs_to_bigquery.py:376} INFO - Using existing BigQuery table for storing data...
+[2023-12-05T14:33:32.565+0000] {gcs_to_bigquery.py:380} INFO - Executing: {'load': {'autodetect': True, 'createDisposition': 'CREATE_IF_NEEDED', 'destinationTable': {'projectId': 'msib-final-project', 'datasetId': 'ampun_puh_sepuh', 'tableId': 'api_data_polusi_indonesia'}, 'sourceFormat': 'PARQUET', 'sourceUris': ['gs://ampun_puh_sepuh/api_data_polusi_indonesia.parquet'], 'writeDisposition': 'WRITE_EMPTY', 'ignoreUnknownValues': False}}
+[2023-12-05T14:33:32.572+0000] {bigquery.py:1595} INFO - Inserting job ***_etl_local_to_gcs_to_bigquery_load_transform_data_to_bigquery_2023_12_05T11_50_51_890883_00_00_64c9545e2ca6f0f140aa12224d6d822e
+[2023-12-05T14:33:34.641+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/google/cloud/transfers/gcs_to_bigquery.py", line 439, in execute
+    job.result(timeout=self.result_timeout, retry=self.result_retry)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/bigquery/job/base.py", line 922, in result
+    return super(_AsyncJob, self).result(timeout=timeout, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/api_core/future/polling.py", line 261, in result
+    raise self._exception
+google.api_core.exceptions.BadRequest: 400 Provided Schema does not match Table msib-final-project:ampun_puh_sepuh.api_data_polusi_indonesia. Field tanggal has changed type from DATE to TIMESTAMP
+[2023-12-05T14:33:34.664+0000] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=etl_local_to_gcs_to_bigquery, task_id=load_transform_data_to_bigquery, execution_date=20231205T115051, start_date=20231205T143332, end_date=20231205T143334
+[2023-12-05T14:33:34.700+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 111 for task load_transform_data_to_bigquery (400 Provided Schema does not match Table msib-final-project:ampun_puh_sepuh.api_data_polusi_indonesia. Field tanggal has changed type from DATE to TIMESTAMP; 150)
+[2023-12-05T14:33:34.764+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-05T14:33:34.809+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

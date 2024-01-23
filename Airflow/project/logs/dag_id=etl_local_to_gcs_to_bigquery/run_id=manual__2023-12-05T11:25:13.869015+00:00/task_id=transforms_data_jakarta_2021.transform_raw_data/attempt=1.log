@@ -1,0 +1,27 @@
+[2023-12-05T11:25:42.313+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_local_to_gcs_to_bigquery.transforms_data_jakarta_2021.transform_raw_data manual__2023-12-05T11:25:13.869015+00:00 [queued]>
+[2023-12-05T11:25:42.359+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_local_to_gcs_to_bigquery.transforms_data_jakarta_2021.transform_raw_data manual__2023-12-05T11:25:13.869015+00:00 [queued]>
+[2023-12-05T11:25:42.365+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-12-05T11:25:42.491+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): transforms_data_jakarta_2021.transform_raw_data> on 2023-12-05 11:25:13.869015+00:00
+[2023-12-05T11:25:42.556+0000] {standard_task_runner.py:57} INFO - Started process 84 to run task
+[2023-12-05T11:25:42.598+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'etl_local_to_gcs_to_bigquery', 'transforms_data_jakarta_2021.transform_raw_data', 'manual__2023-12-05T11:25:13.869015+00:00', '--job-id', '94', '--raw', '--subdir', 'DAGS_FOLDER/etl_gcs_to_bq.py', '--cfg-path', '/tmp/tmp5qupdzc3']
+[2023-12-05T11:25:42.614+0000] {standard_task_runner.py:85} INFO - Job 94: Subtask transforms_data_jakarta_2021.transform_raw_data
+[2023-12-05T11:25:42.812+0000] {task_command.py:416} INFO - Running <TaskInstance: etl_local_to_gcs_to_bigquery.transforms_data_jakarta_2021.transform_raw_data manual__2023-12-05T11:25:13.869015+00:00 [running]> on host af142cad2ccb
+[2023-12-05T11:25:43.115+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_local_to_gcs_to_bigquery' AIRFLOW_CTX_TASK_ID='transforms_data_jakarta_2021.transform_raw_data' AIRFLOW_CTX_EXECUTION_DATE='2023-12-05T11:25:13.869015+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-05T11:25:13.869015+00:00'
+[2023-12-05T11:25:43.976+0000] {logging_mixin.py:154} INFO -         tanggal                           stasiun  pm10  ...  max  critical  categori
+0    2021-01-01                DKI1 (Bunderan HI)    38  ...   53      PM25    SEDANG
+1    2021-01-02                DKI1 (Bunderan HI)    27  ...   47        O3      BAIK
+2    2021-01-03                DKI1 (Bunderan HI)    44  ...   58      PM25    SEDANG
+3    2021-01-04                DKI1 (Bunderan HI)    30  ...   48      PM25      BAIK
+4    2021-01-05                DKI1 (Bunderan HI)    38  ...   53      PM25    SEDANG
+...         ...                               ...   ...  ...  ...       ...       ...
+1512 2021-12-27  DKI5 (Kebon Jeruk) Jakarta Barat    54  ...   76      PM25    SEDANG
+1513 2021-12-28  DKI5 (Kebon Jeruk) Jakarta Barat    44  ...   68      PM25    SEDANG
+1514 2021-12-29  DKI5 (Kebon Jeruk) Jakarta Barat    34  ...   54      PM25    SEDANG
+1515 2021-12-30  DKI5 (Kebon Jeruk) Jakarta Barat    53  ...   75      PM25    SEDANG
+1516 2021-12-31  DKI5 (Kebon Jeruk) Jakarta Barat    60  ...   87      PM25    SEDANG
+
+[1517 rows x 11 columns]
+[2023-12-05T11:25:44.223+0000] {python.py:194} INFO - Done. Returned value was: None
+[2023-12-05T11:25:44.275+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=etl_local_to_gcs_to_bigquery, task_id=transforms_data_jakarta_2021.transform_raw_data, execution_date=20231205T112513, start_date=20231205T112542, end_date=20231205T112544
+[2023-12-05T11:25:44.446+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-05T11:25:44.639+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,31 @@
+[2023-12-05T08:34:34.460+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_local_to_psql.ingest manual__2023-12-05T08:08:37.997322+00:00 [queued]>
+[2023-12-05T08:34:34.476+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_local_to_psql.ingest manual__2023-12-05T08:08:37.997322+00:00 [queued]>
+[2023-12-05T08:34:34.477+0000] {taskinstance.py:1361} INFO - Starting attempt 3 of 3
+[2023-12-05T08:34:34.503+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): ingest> on 2023-12-05 08:08:37.997322+00:00
+[2023-12-05T08:34:34.518+0000] {standard_task_runner.py:57} INFO - Started process 406 to run task
+[2023-12-05T08:34:34.531+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'etl_local_to_psql', 'ingest', 'manual__2023-12-05T08:08:37.997322+00:00', '--job-id', '66', '--raw', '--subdir', 'DAGS_FOLDER/etl_local_to_psql.py', '--cfg-path', '/tmp/tmpkndcg4as']
+[2023-12-05T08:34:34.534+0000] {standard_task_runner.py:85} INFO - Job 66: Subtask ingest
+[2023-12-05T08:34:34.600+0000] {task_command.py:416} INFO - Running <TaskInstance: etl_local_to_psql.ingest manual__2023-12-05T08:08:37.997322+00:00 [running]> on host dabe3da44d20
+[2023-12-05T08:34:34.677+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:206: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2023-12-05T08:34:34.967+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_local_to_psql' AIRFLOW_CTX_TASK_ID='ingest' AIRFLOW_CTX_EXECUTION_DATE='2023-12-05T08:08:37.997322+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-05T08:08:37.997322+00:00'
+[2023-12-05T08:34:34.971+0000] {logging_mixin.py:154} INFO - yellow_ny_taxi_2023_12 /opt/***/output_2023-12.parquet 2023-12-05T08:08:37.997322+00:00
+[2023-12-05T08:34:34.986+0000] {logging_mixin.py:154} INFO - connection established successfully, inserting data...
+[2023-12-05T08:34:35.033+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/ingest_script.py", line 18, in ingest_callable
+    df_iter = pd.read_parquet(parquet_file, iterator=True, chunksize=100000)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parquet.py", line 509, in read_parquet
+    return impl.read(
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parquet.py", line 227, in read
+    pa_table = self.api.parquet.read_table(
+TypeError: read_table() got an unexpected keyword argument 'iterator'
+[2023-12-05T08:34:35.048+0000] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=etl_local_to_psql, task_id=ingest, execution_date=20231205T080837, start_date=20231205T083434, end_date=20231205T083435
+[2023-12-05T08:34:35.070+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 66 for task ingest (read_table() got an unexpected keyword argument 'iterator'; 406)
+[2023-12-05T08:34:35.102+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-05T08:34:35.128+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

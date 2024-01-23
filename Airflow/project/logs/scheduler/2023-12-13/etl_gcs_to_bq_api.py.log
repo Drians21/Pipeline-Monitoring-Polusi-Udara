@@ -1,0 +1,322 @@
+[2023-12-13T17:06:21.559+0000] {processor.py:157} INFO - Started process (PID=36) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:06:21.568+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:06:21.589+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:06:21.589+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:06:21.739+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:06:22.746+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:06:22.745+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:06:22.911+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:06:22.911+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:06:23.047+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 1.524 seconds
+[2023-12-13T17:06:53.475+0000] {processor.py:157} INFO - Started process (PID=46) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:06:53.481+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:06:53.489+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:06:53.488+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:06:53.522+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:06:53.558+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:06:53.557+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:06:53.595+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:06:53.595+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:06:53.629+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.165 seconds
+[2023-12-13T17:07:23.876+0000] {processor.py:157} INFO - Started process (PID=57) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:07:23.879+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:07:23.886+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:07:23.884+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:07:23.919+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:07:23.973+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:07:23.971+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:07:24.032+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:07:24.032+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:07:24.077+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.210 seconds
+[2023-12-13T17:07:54.383+0000] {processor.py:157} INFO - Started process (PID=67) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:07:54.385+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:07:54.390+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:07:54.389+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:07:54.413+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:07:54.473+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:07:54.471+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:07:54.738+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:07:54.738+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:07:54.763+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.386 seconds
+[2023-12-13T17:08:24.888+0000] {processor.py:157} INFO - Started process (PID=78) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:08:24.890+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:08:24.913+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:08:24.912+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:08:24.984+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:08:25.046+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:08:25.044+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:08:25.104+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:08:25.103+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:08:25.145+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.270 seconds
+[2023-12-13T17:08:55.439+0000] {processor.py:157} INFO - Started process (PID=88) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:08:55.442+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:08:55.461+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:08:55.460+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:08:55.520+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:08:55.576+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:08:55.575+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:08:55.631+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:08:55.631+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:08:55.689+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.258 seconds
+[2023-12-13T17:09:26.021+0000] {processor.py:157} INFO - Started process (PID=98) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:09:26.023+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:09:26.028+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:09:26.027+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:09:26.057+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:09:26.112+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:09:26.111+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:09:26.152+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:09:26.151+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:09:26.187+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.180 seconds
+[2023-12-13T17:09:56.735+0000] {processor.py:157} INFO - Started process (PID=109) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:09:56.739+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:09:56.743+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:09:56.742+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:09:56.767+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:09:56.827+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:09:56.825+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:09:57.120+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:09:57.120+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:09:57.157+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.428 seconds
+[2023-12-13T17:10:27.563+0000] {processor.py:157} INFO - Started process (PID=119) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:10:27.565+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:10:27.571+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:10:27.570+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:10:27.617+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:10:27.667+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:10:27.666+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:10:27.745+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:10:27.745+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:10:27.802+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.250 seconds
+[2023-12-13T17:10:58.140+0000] {processor.py:157} INFO - Started process (PID=129) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:10:58.155+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:10:58.188+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:10:58.188+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:10:58.253+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:10:58.314+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:10:58.313+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:10:58.433+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:10:58.433+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:10:58.518+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.411 seconds
+[2023-12-13T17:11:28.924+0000] {processor.py:157} INFO - Started process (PID=139) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:11:28.929+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:11:28.942+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:11:28.941+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:11:28.974+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:11:29.091+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:11:29.089+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:11:29.276+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:11:29.276+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:11:29.358+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.443 seconds
+[2023-12-13T17:11:59.884+0000] {processor.py:157} INFO - Started process (PID=149) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:11:59.887+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:11:59.895+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:11:59.894+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:11:59.917+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:11:59.973+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:11:59.972+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:12:00.024+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:12:00.023+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:12:00.061+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.188 seconds
+[2023-12-13T17:12:30.423+0000] {processor.py:157} INFO - Started process (PID=160) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:12:30.429+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:12:30.439+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:12:30.438+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:12:30.477+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:12:30.538+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:12:30.537+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:12:30.604+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:12:30.604+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:12:30.689+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.273 seconds
+[2023-12-13T17:13:01.174+0000] {processor.py:157} INFO - Started process (PID=170) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:13:01.177+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:13:01.182+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:13:01.181+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:13:01.214+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:13:01.268+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:13:01.267+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:13:01.309+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:13:01.308+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:13:01.338+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.180 seconds
+[2023-12-13T17:13:31.659+0000] {processor.py:157} INFO - Started process (PID=180) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:13:31.662+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:13:31.670+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:13:31.669+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:13:31.697+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:13:31.772+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:13:31.771+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:13:31.831+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:13:31.829+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:13:31.873+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.227 seconds
+[2023-12-13T17:14:02.214+0000] {processor.py:157} INFO - Started process (PID=190) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:14:02.222+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:14:02.232+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:14:02.232+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:14:02.320+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:14:02.437+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:14:02.435+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:14:02.546+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:14:02.546+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:14:02.614+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.420 seconds
+[2023-12-13T17:14:33.054+0000] {processor.py:157} INFO - Started process (PID=200) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:14:33.058+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:14:33.072+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:14:33.072+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:14:33.114+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:14:33.163+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:14:33.161+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:14:33.216+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:14:33.215+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:14:33.272+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.231 seconds
+[2023-12-13T17:15:03.551+0000] {processor.py:157} INFO - Started process (PID=209) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:15:03.554+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:15:03.561+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:15:03.559+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:15:03.609+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:15:03.721+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:15:03.716+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:15:03.793+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:15:03.793+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:15:03.836+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.292 seconds
+[2023-12-13T17:15:34.156+0000] {processor.py:157} INFO - Started process (PID=219) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:15:34.165+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:15:34.174+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:15:34.172+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:15:34.250+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:15:34.360+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:15:34.358+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:15:34.446+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:15:34.445+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:15:34.512+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.372 seconds
+[2023-12-13T17:16:04.863+0000] {processor.py:157} INFO - Started process (PID=229) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:16:04.868+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:16:04.880+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:16:04.878+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:16:04.919+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:16:04.965+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:16:04.963+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:16:05.010+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:16:05.010+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:16:05.050+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.198 seconds
+[2023-12-13T17:16:35.460+0000] {processor.py:157} INFO - Started process (PID=240) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:16:35.466+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:16:35.475+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:16:35.474+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:16:35.532+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:16:35.606+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:16:35.605+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:16:35.687+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:16:35.686+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:16:35.746+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.300 seconds
+[2023-12-13T17:17:05.990+0000] {processor.py:157} INFO - Started process (PID=250) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:17:05.993+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:17:05.998+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:17:05.997+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:17:06.023+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:17:06.067+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:17:06.066+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:17:06.118+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:17:06.117+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:17:06.159+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.174 seconds
+[2023-12-13T17:17:36.446+0000] {processor.py:157} INFO - Started process (PID=260) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:17:36.455+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:17:36.466+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:17:36.466+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:17:36.497+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:17:36.548+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:17:36.547+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:17:36.624+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:17:36.624+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:17:36.659+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.219 seconds
+[2023-12-13T17:18:07.080+0000] {processor.py:157} INFO - Started process (PID=269) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:18:07.082+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:18:07.092+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:18:07.092+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:18:07.120+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:18:07.154+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:18:07.153+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:18:07.190+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:18:07.190+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:18:07.309+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.237 seconds
+[2023-12-13T17:18:37.709+0000] {processor.py:157} INFO - Started process (PID=280) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:18:37.710+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:18:37.714+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:18:37.714+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:18:37.748+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:18:37.788+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:18:37.787+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:18:37.836+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:18:37.836+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:18:37.872+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.172 seconds
+[2023-12-13T17:19:08.177+0000] {processor.py:157} INFO - Started process (PID=290) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:19:08.178+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:19:08.183+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:19:08.183+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:19:08.204+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:19:08.246+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:19:08.245+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:19:08.286+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:19:08.286+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:19:08.328+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.157 seconds
+[2023-12-13T17:19:38.600+0000] {processor.py:157} INFO - Started process (PID=299) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:19:38.602+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:19:38.607+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:19:38.606+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:19:38.626+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:19:38.661+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:19:38.660+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:19:38.698+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:19:38.697+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:19:38.733+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.138 seconds
+[2023-12-13T17:20:09.102+0000] {processor.py:157} INFO - Started process (PID=310) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:20:09.104+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:20:09.109+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:20:09.108+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:20:09.135+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:20:09.211+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:20:09.210+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:20:09.267+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:20:09.267+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:20:09.314+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.218 seconds
+[2023-12-13T17:20:39.583+0000] {processor.py:157} INFO - Started process (PID=320) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:20:39.587+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:20:39.592+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:20:39.592+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:20:39.623+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:20:39.684+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:20:39.683+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:20:39.744+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:20:39.743+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:20:39.792+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.216 seconds
+[2023-12-13T17:21:10.059+0000] {processor.py:157} INFO - Started process (PID=330) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:21:10.061+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:21:10.067+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:21:10.066+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:21:10.088+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:21:10.123+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:21:10.122+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:21:10.159+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:21:10.158+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:21:10.191+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.137 seconds
+[2023-12-13T17:21:40.620+0000] {processor.py:157} INFO - Started process (PID=340) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:21:40.622+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:21:40.630+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:21:40.629+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:21:40.666+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:21:40.708+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:21:40.708+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:21:40.750+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:21:40.750+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:21:40.778+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.167 seconds
+[2023-12-13T17:22:11.076+0000] {processor.py:157} INFO - Started process (PID=350) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:22:11.085+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:22:11.095+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:22:11.094+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:22:11.175+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:22:11.281+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:22:11.280+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:22:11.396+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:22:11.395+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:22:11.476+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.416 seconds
+[2023-12-13T17:22:41.801+0000] {processor.py:157} INFO - Started process (PID=359) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:22:41.803+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:22:41.813+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:22:41.812+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:22:41.860+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:22:41.920+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:22:41.919+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:22:41.989+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:22:41.989+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:22:42.036+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.240 seconds
+[2023-12-13T17:23:12.345+0000] {processor.py:157} INFO - Started process (PID=369) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:23:12.348+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:23:12.353+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:23:12.353+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:23:12.373+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:23:12.409+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:23:12.408+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:23:12.456+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:23:12.456+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:23:12.493+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.156 seconds
+[2023-12-13T17:23:42.808+0000] {processor.py:157} INFO - Started process (PID=379) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:23:42.814+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:23:42.824+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:23:42.823+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:23:42.874+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:23:42.911+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:23:42.910+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:23:42.954+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:23:42.954+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:23:42.992+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.193 seconds
+[2023-12-13T17:24:13.310+0000] {processor.py:157} INFO - Started process (PID=389) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:24:13.320+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:24:13.337+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:24:13.337+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:24:13.440+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:24:13.504+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:24:13.502+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:24:13.564+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:24:13.564+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:24:13.627+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.334 seconds
+[2023-12-13T17:24:44.031+0000] {processor.py:157} INFO - Started process (PID=399) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:24:44.037+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:24:44.057+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:24:44.056+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:24:44.158+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:24:44.276+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:24:44.275+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:24:44.370+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:24:44.370+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:24:44.456+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.434 seconds
+[2023-12-13T17:25:14.865+0000] {processor.py:157} INFO - Started process (PID=409) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:25:14.869+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:25:14.878+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:25:14.876+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:25:14.923+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:25:14.963+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:25:14.962+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:25:14.999+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:25:14.999+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:25:15.040+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.184 seconds
+[2023-12-13T17:25:45.329+0000] {processor.py:157} INFO - Started process (PID=419) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:25:45.333+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:25:45.338+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:25:45.337+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:25:45.384+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:25:45.439+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:25:45.438+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:25:45.560+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:25:45.560+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:25:45.691+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.367 seconds
+[2023-12-13T17:26:15.977+0000] {processor.py:157} INFO - Started process (PID=428) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:26:15.982+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:26:15.986+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:26:15.986+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:26:16.013+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:26:16.070+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:26:16.068+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:26:16.168+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:26:16.167+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:26:16.225+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.254 seconds
+[2023-12-13T17:26:46.525+0000] {processor.py:157} INFO - Started process (PID=439) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:26:46.528+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:26:46.534+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:26:46.533+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:26:46.554+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:26:46.614+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:26:46.613+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:26:46.736+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:26:46.735+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:26:46.782+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.261 seconds
+[2023-12-13T17:27:17.243+0000] {processor.py:157} INFO - Started process (PID=449) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:27:17.245+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:27:17.250+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:27:17.249+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:27:17.274+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:27:17.316+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:27:17.315+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:27:17.370+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:27:17.369+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:27:17.408+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.171 seconds
+[2023-12-13T17:27:47.844+0000] {processor.py:157} INFO - Started process (PID=460) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:27:47.862+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:27:47.870+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:27:47.869+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:27:47.992+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:27:48.096+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:27:48.095+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:27:48.301+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:27:48.300+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:27:48.446+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.642 seconds
+[2023-12-13T17:28:18.946+0000] {processor.py:157} INFO - Started process (PID=470) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:28:18.952+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:28:18.959+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:28:18.958+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:28:19.007+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:28:19.057+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:28:19.056+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:28:19.109+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:28:19.109+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:28:19.186+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.250 seconds
+[2023-12-13T17:28:49.563+0000] {processor.py:157} INFO - Started process (PID=480) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:28:49.568+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:28:49.581+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:28:49.579+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:28:49.612+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:28:49.673+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:28:49.671+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:28:49.737+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:28:49.736+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:28:49.803+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.252 seconds
+[2023-12-13T17:29:20.127+0000] {processor.py:157} INFO - Started process (PID=491) to work on /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:29:20.129+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_gcs_to_bq_api.py for tasks to queue
+[2023-12-13T17:29:20.134+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:29:20.133+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:29:20.167+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_local_to_gcs_to_bigquery_api']) retrieved from /opt/airflow/dags/etl_gcs_to_bq_api.py
+[2023-12-13T17:29:20.217+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:29:20.215+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-13T17:29:20.264+0000] {logging_mixin.py:154} INFO - [2023-12-13T17:29:20.264+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_local_to_gcs_to_bigquery_api to 2023-12-13T00:00:00+00:00, run_after=2023-12-14T00:00:00+00:00
+[2023-12-13T17:29:20.306+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_gcs_to_bq_api.py took 0.185 seconds

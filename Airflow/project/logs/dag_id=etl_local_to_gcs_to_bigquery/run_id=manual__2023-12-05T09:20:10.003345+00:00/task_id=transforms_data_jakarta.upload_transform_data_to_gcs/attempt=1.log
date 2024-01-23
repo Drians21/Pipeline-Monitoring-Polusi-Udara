@@ -1,0 +1,16 @@
+[2023-12-05T09:20:19.928+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_local_to_gcs_to_bigquery.transforms_data_jakarta.upload_transform_data_to_gcs manual__2023-12-05T09:20:10.003345+00:00 [queued]>
+[2023-12-05T09:20:19.946+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_local_to_gcs_to_bigquery.transforms_data_jakarta.upload_transform_data_to_gcs manual__2023-12-05T09:20:10.003345+00:00 [queued]>
+[2023-12-05T09:20:19.947+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-12-05T09:20:19.970+0000] {taskinstance.py:1382} INFO - Executing <Task(LocalFilesystemToGCSOperator): transforms_data_jakarta.upload_transform_data_to_gcs> on 2023-12-05 09:20:10.003345+00:00
+[2023-12-05T09:20:19.981+0000] {standard_task_runner.py:57} INFO - Started process 79 to run task
+[2023-12-05T09:20:19.987+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'etl_local_to_gcs_to_bigquery', 'transforms_data_jakarta.upload_transform_data_to_gcs', 'manual__2023-12-05T09:20:10.003345+00:00', '--job-id', '79', '--raw', '--subdir', 'DAGS_FOLDER/etl_gcs_to_bq.py', '--cfg-path', '/tmp/tmp_1o8jhor']
+[2023-12-05T09:20:19.991+0000] {standard_task_runner.py:85} INFO - Job 79: Subtask transforms_data_jakarta.upload_transform_data_to_gcs
+[2023-12-05T09:20:20.060+0000] {task_command.py:416} INFO - Running <TaskInstance: etl_local_to_gcs_to_bigquery.transforms_data_jakarta.upload_transform_data_to_gcs manual__2023-12-05T09:20:10.003345+00:00 [running]> on host af142cad2ccb
+[2023-12-05T09:20:20.176+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_local_to_gcs_to_bigquery' AIRFLOW_CTX_TASK_ID='transforms_data_jakarta.upload_transform_data_to_gcs' AIRFLOW_CTX_EXECUTION_DATE='2023-12-05T09:20:10.003345+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-05T09:20:10.003345+00:00'
+[2023-12-05T09:20:20.180+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2023-12-05T09:20:20.181+0000] {connection.py:232} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2023-12-05T09:20:20.185+0000] {base.py:73} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-12-05T09:20:21.367+0000] {gcs.py:562} INFO - File /opt/***/dataset/transform/data_polusi_jakarta_2014-2016.parquet uploaded to data_polusi_jakarta_2014-2016.parquet in ampun_puh_sepuh bucket
+[2023-12-05T09:20:21.398+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=etl_local_to_gcs_to_bigquery, task_id=transforms_data_jakarta.upload_transform_data_to_gcs, execution_date=20231205T092010, start_date=20231205T092019, end_date=20231205T092021
+[2023-12-05T09:20:21.452+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-05T09:20:21.481+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

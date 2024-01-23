@@ -1,0 +1,18 @@
+[2023-12-10T15:50:30.278+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_local_to_gcs_to_bigquery_api.load_transform_data_to_bigquery scheduled__2023-12-09T00:00:00+00:00 [queued]>
+[2023-12-10T15:50:30.294+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_local_to_gcs_to_bigquery_api.load_transform_data_to_bigquery scheduled__2023-12-09T00:00:00+00:00 [queued]>
+[2023-12-10T15:50:30.294+0000] {taskinstance.py:1361} INFO - Starting attempt 2 of 2
+[2023-12-10T15:50:30.322+0000] {taskinstance.py:1382} INFO - Executing <Task(GCSToBigQueryOperator): load_transform_data_to_bigquery> on 2023-12-09 00:00:00+00:00
+[2023-12-10T15:50:30.337+0000] {standard_task_runner.py:57} INFO - Started process 85 to run task
+[2023-12-10T15:50:30.348+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'etl_local_to_gcs_to_bigquery_api', 'load_transform_data_to_bigquery', 'scheduled__2023-12-09T00:00:00+00:00', '--job-id', '247', '--raw', '--subdir', 'DAGS_FOLDER/etl_gcs_to_bq_api.py', '--cfg-path', '/tmp/tmpa680jxcm']
+[2023-12-10T15:50:30.354+0000] {standard_task_runner.py:85} INFO - Job 247: Subtask load_transform_data_to_bigquery
+[2023-12-10T15:50:30.454+0000] {task_command.py:416} INFO - Running <TaskInstance: etl_local_to_gcs_to_bigquery_api.load_transform_data_to_bigquery scheduled__2023-12-09T00:00:00+00:00 [running]> on host c0a30b49a736
+[2023-12-10T15:50:30.599+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_local_to_gcs_to_bigquery_api' AIRFLOW_CTX_TASK_ID='load_transform_data_to_bigquery' AIRFLOW_CTX_EXECUTION_DATE='2023-12-09T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-09T00:00:00+00:00'
+[2023-12-10T15:50:30.604+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2023-12-10T15:50:30.605+0000] {connection.py:232} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2023-12-10T15:50:30.608+0000] {base.py:73} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-12-10T15:50:30.610+0000] {gcs_to_bigquery.py:376} INFO - Using existing BigQuery table for storing data...
+[2023-12-10T15:50:30.693+0000] {gcs_to_bigquery.py:380} INFO - Executing: {'load': {'autodetect': True, 'createDisposition': 'CREATE_IF_NEEDED', 'destinationTable': {'projectId': 'msib-final-project', 'datasetId': 'ampun_puh_sepuh', 'tableId': 'api_data_polusi_indonesia'}, 'sourceFormat': 'PARQUET', 'sourceUris': ['gs://ampun_puh_sepuh/transform/api_data_polusi_indonesia.parquet'], 'writeDisposition': 'WRITE_TRUNCATE', 'ignoreUnknownValues': False}}
+[2023-12-10T15:50:30.695+0000] {bigquery.py:1595} INFO - Inserting job ***_etl_local_to_gcs_to_bigquery_api_load_transform_data_to_bigquery_2023_12_09T00_00_00_00_00_ec17ff353bfc72d88dbb593996b7f72f
+[2023-12-10T15:50:34.236+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=etl_local_to_gcs_to_bigquery_api, task_id=load_transform_data_to_bigquery, execution_date=20231209T000000, start_date=20231210T155030, end_date=20231210T155034
+[2023-12-10T15:50:34.310+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-10T15:50:34.341+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

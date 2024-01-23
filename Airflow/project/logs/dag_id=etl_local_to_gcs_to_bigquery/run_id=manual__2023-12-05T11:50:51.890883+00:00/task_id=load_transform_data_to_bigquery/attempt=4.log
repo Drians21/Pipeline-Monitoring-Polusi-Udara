@@ -1,0 +1,28 @@
+[2023-12-05T14:31:12.546+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_local_to_gcs_to_bigquery.load_transform_data_to_bigquery manual__2023-12-05T11:50:51.890883+00:00 [queued]>
+[2023-12-05T14:31:12.588+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_local_to_gcs_to_bigquery.load_transform_data_to_bigquery manual__2023-12-05T11:50:51.890883+00:00 [queued]>
+[2023-12-05T14:31:12.590+0000] {taskinstance.py:1361} INFO - Starting attempt 4 of 4
+[2023-12-05T14:31:12.654+0000] {taskinstance.py:1382} INFO - Executing <Task(GCSToBigQueryOperator): load_transform_data_to_bigquery> on 2023-12-05 11:50:51.890883+00:00
+[2023-12-05T14:31:12.687+0000] {standard_task_runner.py:57} INFO - Started process 123 to run task
+[2023-12-05T14:31:12.721+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'etl_local_to_gcs_to_bigquery', 'load_transform_data_to_bigquery', 'manual__2023-12-05T11:50:51.890883+00:00', '--job-id', '110', '--raw', '--subdir', 'DAGS_FOLDER/etl_gcs_to_bq.py', '--cfg-path', '/tmp/tmpoaiobqbh']
+[2023-12-05T14:31:12.738+0000] {standard_task_runner.py:85} INFO - Job 110: Subtask load_transform_data_to_bigquery
+[2023-12-05T14:31:13.007+0000] {task_command.py:416} INFO - Running <TaskInstance: etl_local_to_gcs_to_bigquery.load_transform_data_to_bigquery manual__2023-12-05T11:50:51.890883+00:00 [running]> on host f19d185ad9e6
+[2023-12-05T14:31:13.273+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_local_to_gcs_to_bigquery' AIRFLOW_CTX_TASK_ID='load_transform_data_to_bigquery' AIRFLOW_CTX_EXECUTION_DATE='2023-12-05T11:50:51.890883+00:00' AIRFLOW_CTX_TRY_NUMBER='4' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-05T11:50:51.890883+00:00'
+[2023-12-05T14:31:13.286+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2023-12-05T14:31:13.289+0000] {connection.py:232} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2023-12-05T14:31:13.297+0000] {base.py:73} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-12-05T14:31:13.302+0000] {gcs_to_bigquery.py:376} INFO - Using existing BigQuery table for storing data...
+[2023-12-05T14:31:13.495+0000] {gcs_to_bigquery.py:380} INFO - Executing: {'load': {'autodetect': True, 'createDisposition': 'CREATE_IF_NEEDED', 'destinationTable': {'projectId': 'msib-final-project', 'datasetId': 'ampun_puh_sepuh', 'tableId': 'api_data_polusi_indonesia'}, 'sourceFormat': 'PARQUET', 'sourceUris': ['gs://ampun_puh_sepuh/api_data_polusi_indonesia.parquet'], 'writeDisposition': 'WRITE_EMPTY', 'ignoreUnknownValues': False}}
+[2023-12-05T14:31:13.498+0000] {bigquery.py:1595} INFO - Inserting job ***_etl_local_to_gcs_to_bigquery_load_transform_data_to_bigquery_2023_12_05T11_50_51_890883_00_00_664e5832003ef4db900bce5b1d1c57e7
+[2023-12-05T14:31:15.455+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/google/cloud/transfers/gcs_to_bigquery.py", line 439, in execute
+    job.result(timeout=self.result_timeout, retry=self.result_retry)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/bigquery/job/base.py", line 922, in result
+    return super(_AsyncJob, self).result(timeout=timeout, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/api_core/future/polling.py", line 261, in result
+    raise self._exception
+google.api_core.exceptions.Forbidden: 403 Access Denied: File gs://ampun_puh_sepuh/api_data_polusi_indonesia.parquet: Access Denied
+[2023-12-05T14:31:15.666+0000] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=etl_local_to_gcs_to_bigquery, task_id=load_transform_data_to_bigquery, execution_date=20231205T115051, start_date=20231205T143112, end_date=20231205T143115
+[2023-12-05T14:31:15.827+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 110 for task load_transform_data_to_bigquery (403 Access Denied: File gs://ampun_puh_sepuh/api_data_polusi_indonesia.parquet: Access Denied; 123)
+[2023-12-05T14:31:15.962+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-05T14:31:16.211+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

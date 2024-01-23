@@ -1,0 +1,2 @@
+Note:
+- Ini hanya file untuk explorasi, dimana untuk mengetahui bagaimana kondisi datanya, dan apa saja yang perlu di bersihkan untuk di gunakan di airflow

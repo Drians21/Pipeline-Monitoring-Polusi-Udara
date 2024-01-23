@@ -1,0 +1,40 @@
+[2023-12-05T11:25:53.271+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_local_to_gcs_to_bigquery.load_transform_data_to_bigquery manual__2023-12-05T11:25:13.869015+00:00 [queued]>
+[2023-12-05T11:25:53.311+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_local_to_gcs_to_bigquery.load_transform_data_to_bigquery manual__2023-12-05T11:25:13.869015+00:00 [queued]>
+[2023-12-05T11:25:53.313+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-12-05T11:25:53.355+0000] {taskinstance.py:1382} INFO - Executing <Task(GCSToBigQueryOperator): load_transform_data_to_bigquery> on 2023-12-05 11:25:13.869015+00:00
+[2023-12-05T11:25:53.379+0000] {standard_task_runner.py:57} INFO - Started process 92 to run task
+[2023-12-05T11:25:53.396+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'etl_local_to_gcs_to_bigquery', 'load_transform_data_to_bigquery', 'manual__2023-12-05T11:25:13.869015+00:00', '--job-id', '96', '--raw', '--subdir', 'DAGS_FOLDER/etl_gcs_to_bq.py', '--cfg-path', '/tmp/tmp4bizfhhf']
+[2023-12-05T11:25:53.405+0000] {standard_task_runner.py:85} INFO - Job 96: Subtask load_transform_data_to_bigquery
+[2023-12-05T11:25:53.511+0000] {task_command.py:416} INFO - Running <TaskInstance: etl_local_to_gcs_to_bigquery.load_transform_data_to_bigquery manual__2023-12-05T11:25:13.869015+00:00 [running]> on host af142cad2ccb
+[2023-12-05T11:25:53.709+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_local_to_gcs_to_bigquery' AIRFLOW_CTX_TASK_ID='load_transform_data_to_bigquery' AIRFLOW_CTX_EXECUTION_DATE='2023-12-05T11:25:13.869015+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-05T11:25:13.869015+00:00'
+[2023-12-05T11:25:53.718+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2023-12-05T11:25:53.720+0000] {connection.py:232} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2023-12-05T11:25:53.731+0000] {base.py:73} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-12-05T11:25:53.737+0000] {gcs_to_bigquery.py:376} INFO - Using existing BigQuery table for storing data...
+[2023-12-05T11:25:53.834+0000] {gcs_to_bigquery.py:380} INFO - Executing: {'load': {'autodetect': True, 'createDisposition': 'CREATE_IF_NEEDED', 'destinationTable': {'projectId': 'msib-final-project', 'datasetId': 'ampun_puh_sepuh', 'tableId': 'api_data_polusi_indonesia'}, 'sourceFormat': 'PARQUET', 'sourceUris': ['gs://ampun_puh_sepuh/api_data_polusi_indonesia.parquet'], 'writeDisposition': 'WRITE_EMPTY', 'ignoreUnknownValues': False}}
+[2023-12-05T11:25:53.837+0000] {bigquery.py:1595} INFO - Inserting job ***_etl_local_to_gcs_to_bigquery_load_transform_data_to_bigquery_2023_12_05T11_25_13_869015_00_00_030f93e9d6e7623fd19074ee736e5040
+[2023-12-05T11:25:55.275+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/google/cloud/transfers/gcs_to_bigquery.py", line 381, in execute
+    job: BigQueryJob | UnknownJob = self._submit_job(self.hook, job_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/google/cloud/transfers/gcs_to_bigquery.py", line 303, in _submit_job
+    return hook.insert_job(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/google/common/hooks/base_google.py", line 475, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 1598, in insert_job
+    job_api_repr._begin()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/bigquery/job/base.py", line 693, in _begin
+    api_response = client._call_api(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/bigquery/client.py", line 808, in _call_api
+    return call()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/api_core/retry.py", line 366, in retry_wrapped_func
+    return retry_target(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/api_core/retry.py", line 204, in retry_target
+    return target()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/_http/__init__.py", line 494, in api_request
+    raise exceptions.from_http_response(response)
+google.api_core.exceptions.Forbidden: 403 POST https://bigquery.googleapis.com/bigquery/v2/projects/msib-final-project/jobs?prettyPrint=false: Access Denied: Project msib-final-project: User does not have bigquery.jobs.create permission in project msib-final-project.
+[2023-12-05T11:25:55.315+0000] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=etl_local_to_gcs_to_bigquery, task_id=load_transform_data_to_bigquery, execution_date=20231205T112513, start_date=20231205T112553, end_date=20231205T112555
+[2023-12-05T11:25:55.356+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 96 for task load_transform_data_to_bigquery (403 POST https://bigquery.googleapis.com/bigquery/v2/projects/msib-final-project/jobs?prettyPrint=false: Access Denied: Project msib-final-project: User does not have bigquery.jobs.create permission in project msib-final-project.; 92)
+[2023-12-05T11:25:55.420+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-05T11:25:55.460+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
